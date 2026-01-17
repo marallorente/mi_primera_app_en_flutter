@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
-void main() => runApp(const InstagramClone());
+void main() {
+  runApp(const InstagramClone());
+}
 
 class InstagramClone extends StatelessWidget {
   const InstagramClone({super.key});
@@ -22,7 +24,7 @@ class LoginPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return Scaffold( //fondo de la aplicación
       body: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 40),
         child: Column(
